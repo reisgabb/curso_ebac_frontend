@@ -4,29 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <h1>Containers</h1>
-        <nav>
-            <a href="">Home</a>
-        </nav>
+        <div class="container">
+            <h1>Containers</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" title="Ir para seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ir para seção de economia">Economia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <div>
-            <section>
-                <h2>Esportes</h2>
-                <article>
-                    <h3>Hoje Brasil x Argentina</h3>
-                </article>
-            </section>
-            <section>
-                <h2>Economia</h2>
-                <article>
-                    <h3>Desemprego diminui em 1%</h3>
-                </article>
-            </section>
-        </div>
+            <section id="esportes">
+                <div class="container">
+                    <h2>Esportes</h2>
+                    <div class="articles">
+                        <article>
+                            <img src="midias/jogadores.jpg" alt="jogadores de futebol" />
+                            <header>
+                                <time class="creation-date">07/02/2024 às 05:30</time>
+                            </header>
+                            <h3>Hoje Brasil x Argentina</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, veniam ratione dicta, maiores omnis blanditiis aperiam illum atque cumque voluptatem aliquam iste quis error odio libero asperiores modi iure recusandae!
+                            </p>
+                        </article>
+                        <article>
+                            <img src="midias/neymar.jpg" alt="Neymar sorrindo" />
+                            <header>
+                                <time class="creation-date">07/02/2024 às 05:34</time>
+                            </header>
+                            <h3>Aposentadoria do Neymar?</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero consequatur, nesciunt porro quam earum consectetur expedita ipsa reiciendis enim iusto, inventore labore iste similique pariatur voluptatibus magni nam ducimus vel.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+                    <section>
+                            <div class="container">
+                            <h2>Economia</h2>
+                            <div class="articles">
+                                <article>
+                                    <img src="midias/dolar.jpg" alt="Notas de dólar"/>
+                                    <header>
+                                        <time class="creation-date">07/02/2024 às 05:37</time>
+                                    </header>
+                                    <h3>Dólar dispara e sobe 3%</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia distinctio autem at reprehenderit recusandae sapiente accusantium consequuntur atque repudiandae neque, quibusdam totam consectetur laboriosam magnam enim, nesciunt dignissimos ipsum. Cum?
+                                    </p>
+                                </article>
+                                <article>
+                                    <img src="midias/governo argentino.jpg" alt="Ministro da economia da argentina"/>
+                                    <header>
+                                        <time class="creation-date">07/02/2024 às 05:41</time>
+                                        <h3>Governo argentino vê 2024 de estabilização</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi sed repudiandae nemo, quae quaerat. Molestiae cum ducimus asperiores aspernatur et earum, optio quia sint minus aut distinctio dolor quod.
+                                        </p>
+                                    </header>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
     </main>
     <aside>
         conteudo
