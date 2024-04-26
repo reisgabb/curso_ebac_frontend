@@ -122,3 +122,15 @@ section h2 {
 aside {
     display: none;
 }
+
+#entretenimento {
+    background-color: rgba(44, 149, 241,0.8);
+}
+
+#tecnologia {
+    background-color: rgba(43, 46, 48, 0.5);
+}
+
+#tecnologia .articles article a {
+background-color: #2f3640;
+}
